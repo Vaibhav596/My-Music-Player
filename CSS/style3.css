@@ -1,0 +1,297 @@
+body{
+	height:100vh;
+	width: 100vw;
+	background-color: #0c1027; 
+}
+/*HEADER CSS PROPERTIES*/
+header div{
+	display: inline-block;
+}
+header{
+	margin: 10px;
+}
+.header-logo{
+	height:80px;
+	width:150px;
+	overflow: :hidden;
+}
+.header-logo div{
+	margin-top:20px;
+	color:white;
+}
+.header-logo img{
+	height:80px;
+	width:80px;
+	margin-top: -60px;
+}
+.header-favourites{
+	height:20px;
+	margin-left:150px;
+	color:white;
+	margin-bottom: 50px;
+}
+/*SEARCH ICON CSS PROPERTIES*/
+.fa-search:before {
+    content: "\f002";
+    color: white;
+    background-color: #3b1ddc14;
+}
+.header-search-button{
+	margin-left:500px;
+	margin-right: 50px;
+	border:0.3px solid black;
+}
+/*BELL ICON CSS PROPERTIES*/
+.fa-bell:before {
+    content: "\f0f3";
+    color: white;
+}
+.header-image img{
+	height:50px;
+	width:50px;
+	border-radius:25px;
+	margin-left:70px;
+}
+/* ALL THE PLAYLIST SINGER NAME AND ABOUT SINGER CSS PROPERTIES*/
+#playlist{
+	height:300px;
+	width:69.6vw;
+	margin-left:8vw;
+	display:inline-block;
+	background-color: #a59ae214;
+}
+#playlist img{
+	height: 300px;
+	width:250px;
+}
+#playlist div{
+	margin-left:270px;
+	margin-top: -270px; 
+}
+#playlist div button{
+	background-color: purple;
+	color:white;
+	border:none;
+	height:30px;
+	width:100px;
+	margin-left: 50px;
+	display: inline-block;
+}
+#aside label{
+	color:white;
+	display:inline-block;
+	font-size: 25px;
+	font-weight: bolder;
+}
+#aside select{
+	position:absolute;
+	right:1vw;
+	top:0.3vw;
+	background-color: transparent;
+	color:cyan;
+	border:none;
+}
+#song1{
+	position:relative;
+	margin-top:20px;
+	background-color: #3b1ddc14;
+	height: 40px;
+}
+.a{
+	color:white;
+	position: absolute;
+	top:0px;
+}
+.b{
+	color:white;
+	position:relative;
+	left:10px;
+	top:0px;
+	font-size: 12px;
+}
+#aside{
+	overflow: hidden;
+	margin-left:8vw;
+	width:69.6vw;
+}
+#aside div img{
+	height:30px;
+	width:30px;
+}
+/* HEART ICON CSS PROPERTIES*/
+.fa-heart:before {
+    content: "\f004";
+    color: white;
+    position: absolute;
+    right:100px;
+    top:2px;
+}
+/* PLUS ICON CSS PROPERTIES*/
+.fa-plus:before {
+    content: "\f067";
+    color: white;
+    position: absolute;
+    right:50px;
+    top:2px;
+}
+/* REENTLY PLAYED PLAYLIST CSS PROPERTIES*/
+#asider{
+	position: absolute;
+	top:430px;
+	right:4vw;
+	height: auto;
+	width:15vw;
+}
+#asider label{
+	color:white;
+	display:inline-block;
+	font-size: 25px;
+	font-weight: bolder;
+}
+#asider select{
+	position:absolute;
+	right:1vw;
+	top:0.3vw;
+	background-color: transparent;
+	color:cyan;
+	border:none;
+}
+#song1r{
+	position:relative;
+	margin-top:20px;
+}
+.ar{
+	color:white;
+	position: absolute;
+	top:0px;
+}
+.br{
+	color:white;
+	position:relative;
+	left:10px;
+	top:0px;
+	font-size: 12px;
+}
+#asider{
+	overflow: hidden;
+}
+#asider div img{
+	height:30px;
+	width:30px;
+}
+.fa-heart:before {
+    content: "\f004";
+    color: white;
+    position: absolute;
+    right:0;
+    top:2px;
+}
+/*MOST PLAYED PLAYLIST CSS PROPERTIES*/
+#asidet{
+	position: absolute;
+	top:130px;
+	right:3vw;
+	height: auto;
+	width:17vw;
+}
+#asidet label{
+	color:white;
+	display:inline-block;
+	font-size: 25px;
+	font-weight: bolder;
+}
+#song1t{
+	position:relative;
+	margin-top:20px;
+}
+.at{
+	color:white;
+	position: absolute;
+	top:0px;
+}
+.bt{
+	color:white;
+	position:relative;
+	left:10px;
+	top:0px;
+	font-size: 12px;
+}
+#asidet{
+	overflow: hidden;
+}
+#asidet div img{
+	height:60px;
+	width:60px;
+}
+.i1{
+	position: absolute;
+	right:0;
+	top:0;
+}
+/* THREE DOTS CSS PROPERTIES*/
+.fa-ellipsis-h:before {
+    content: "\f141";
+    color: white;
+}
+audio {
+    width: 300px;
+    height: 54px;
+    background-color: transparent;
+}
+#bottom-player{
+	position:fixed;
+	bottom: 0;
+	height:70px;
+	width:100vw;
+	background-color: #292727;
+	left:0;
+}
+#bottom-player audio{
+	position:fixed;
+	left:40%;
+	bottom:10px;
+}
+#bottom-image img{
+	height:50px;
+	width:50px;
+	position: relative;
+	top:10px;
+	left:40px;
+}
+#bottom-player-text{
+	height:100px;
+	width: 100px;
+	position: relative;
+	top:-40px;
+	left:100px;
+}
+.fa-ban:before {
+    content: "\f05e";
+    color: white;
+}
+/*ALL MEDIA QUERIES*/
+@media only screen and (max-width: 1030px){
+	.header-image,.header-search-button,#asidet{
+		display:none;
+	}
+	.fa-bell:before{
+		display:none;
+	}
+	#asider{
+		top:450px;
+	}
+	#playlist{
+		width:95vw;
+		margin-left: 0;
+	}
+}
+@media only screen and (max-width: 760px) {
+	#asider{
+		display: none;
+	}
+	#aside{
+		width:95vw;
+		margin-left: 0;
+	}
+
+}

@@ -1,0 +1,368 @@
+body{
+	height:100vh;
+	width: 100vw;
+	background-color: #0c1027; 
+}
+/* All the CSS Properies for header*/
+header div{
+	display: inline-block;
+}
+.header-logo{
+	height:80px;
+	width:150px;
+}
+.header-logo div{
+	color:white;
+	position: absolute;
+    top: 30px;
+    left:100px;
+}
+.header-logo img{
+	height:80px;
+	width:80px;
+	margin-top: 0px;
+}
+.header-favourites{
+	height:20px;
+	margin-left:150px;
+	color:white;
+	margin-bottom: 50px;
+}
+/*Search Icon CSS property*/ 
+.fa-search:before {
+    content: "\f002";
+    color: white;
+    background-color: #3b1ddc14;
+}
+.header-search-button{
+	margin-left:500px;
+	margin-right: 50px;
+}
+/*Bell Icon CSS properties*/
+.fa-bell:before {
+    content: "\f0f3";
+    color: white;
+}
+.header-image img{
+	height:50px;
+	width:50px;
+	border-radius:25px;
+	margin-left:70px;
+}
+/* <main> tag properties*/
+main{
+	width:72vw;
+	margin-left:8vw; 
+}
+/* Three images of playlists CSS properties*/
+.images-container{
+	display: inline-block;
+	display: flex;
+}
+.images-container img{
+	width:23vw;
+	height:200px;
+	transition:0.1s ease-in-out;
+}
+.images-container img:hover{
+	transform: scale(1.3);
+}
+/*Section of Latest Release CSS properties*/
+.Latest-Release{
+	display: inline-block;
+}
+#container{
+	height:auto;
+	width:69.6vw;
+	display: flex;
+	flex-wrap: wrap;
+}
+#image1{
+	display: inline-flex;
+	height:96px;
+	width:33vw;
+}
+#container div img{
+	height: 95px;
+	width:10vw;
+}
+#container-text{
+	position: relative;
+	width:100px;
+	height:50px;
+	color: white;
+	top:15%;
+}
+.i1 i{
+   	position: relative;
+   	top:10px;
+   	left: 10vw;
+   	color: white;
+}
+#icon1{
+	color:white;
+	position:relative;
+	top:40px;
+	left:-70px;
+	opacity: 0;
+}
+#image1:hover #icon1{
+	opacity: 1;
+}
+#icon2{
+	color:white;
+	position:relative;
+	top:0px;
+	left:-20px;
+	opacity: 0;
+}
+/*Aside playlist of songs CSS properties*/
+#aside{
+	position: absolute;
+	top:130px;
+	right:4vw;
+	height: auto;
+	width:15vw;
+	overflow: hidden;
+	scroll-behavior: smooth;
+}
+#aside label{
+	color:white;
+	display:inline-block;
+	font-size: 25px;
+	font-weight: bolder;
+}
+#aside select{
+	position:absolute;
+	right:1vw;
+	top:0.3vw;
+	background-color: transparent;
+	color:cyan;
+	border:none;
+}
+.song1{
+	position:relative;
+	margin-top:20px;
+}
+.a{
+	color:white;
+	position: absolute;
+	top:0px;
+}
+.b{
+	color:white;
+	position:relative;
+	left:10px;
+	top:0px;
+	font-size: 12px;
+}
+#aside{
+	overflow: hidden;
+}
+#aside div img{
+	height:30px;
+	width:30px;
+}
+/*Heart Icon CSS properties*/
+.fa-heart:before {
+    content: "\f004";
+    color: white;
+    position: absolute;
+    right:0;
+    top:2px;
+}
+/*Section of Popular-artists CSS properties*/
+#Popular-artists-images-container{
+	width:69.6vw;
+	display:flex;
+	justify-content: space-around;
+	height: auto;
+}
+#Popular-artists{
+	width:69.6vw;
+}
+.images img{
+	border-radius: 60px;
+	height: 120px;
+	width: 120px;
+}
+.images span{
+	color:white;
+}
+/*Section of types of Music CSS properties*/
+#music-types{
+	width:69.6vw;
+}
+#music-container{
+	display: flex;
+	justify-content: space-around;
+	background-color: #3b1ddc14;
+	height:130px;
+}
+#music-container img{
+	margin-top:15px;
+	height: 100px;
+	width:100px;
+	border-radius: 50px;
+}
+/*Section of music images CSS properties*/
+#music-images-container{
+	display: flex;
+	justify-content: space-between;
+	width:69.6vw;
+}
+#music-images-container div label{
+	color:white;
+	position:relative;
+	top:-100px;
+	left:120px;
+	font-weight: 700;
+	font-size: 20px;
+}
+#music-images-container div img{
+	height:150px;
+	width:300px;
+}
+/* Latest English Images CSS properties*/
+#latest-english{
+	width:69.6vw;
+	height:auto;
+}
+#latest-english label{
+	color:white;
+	font-size: 20px;
+	font-weight:bolder;
+}
+#latest-images-english-container{
+	display: flex;
+	justify-content: space-between;
+}
+#latest-images-english-container div img{
+	height:150px;
+	width:150px;
+}
+#latest-images-english-container div h6{
+	color:white;
+	margin-top: -2px;
+}
+/*Bottom music player CSS properties*/
+#bottom-player{
+	position:fixed;
+	bottom: 0;
+	height:70px;
+	width:100vw;
+	background-color: #292727;
+	left:0;
+}
+#bottom-player audio{
+	position:fixed;
+	left:40%;
+	bottom:10px;
+}
+#bottom-image img{
+	height:50px;
+	width:50px;
+	position: relative;
+	top:10px;
+	left:40px;
+}
+#bottom-player-text{
+	height:100px;
+	width: 100px;
+	position: relative;
+	top:-40px;
+	left:100px;
+}
+.fa-ban:before {
+    content: "\f05e";
+    color: white;
+}
+/* ALL THE MEDIA QUERIES*/
+@media only screen and (max-width: 1150px) {
+	.header-image{
+		display:none;
+	}
+	.fa-bell:before{
+		display:none;
+	}
+@media only screen and (max-width: 1100px) {
+	.header-image,.header-search-button{
+		display:none;
+	}
+	.fa-bell:before{
+		display:none;
+	}
+	.i1 i{
+		display:none;
+	}
+}
+@media only screen and (max-width: 1030px){
+	.images-container{
+		width:100vw;
+	}
+	main{
+		margin-left: 0vw;
+	}
+	.images-container img{
+		width:33vw;
+	}
+	.aside-15p{
+		display: none;
+	}
+	#music-images-container div{
+		width:33vw;
+	}
+	#music-images-container{
+		width:100vw;
+		display: flex;
+		justify-content: flex-start;
+	}
+	#music-images-container div img{
+		width:33vw;
+	}
+	#music-images-container div label{
+		display: none;
+	}
+	#latest-english{
+		width: 90vw;
+	}
+	#latest-english div img{
+		width:10vw;
+		height:8vh;
+		justify-content:flex-start;
+	}
+	#music-container{
+		width:100vw;
+	}
+	#Popular-artists{
+		width:100vw;
+	}
+	#Popular-artists img{
+		height:20vw;
+		width:20vw;
+		border-radius: 10vw;
+	}
+	#icon1{
+		display: none;
+	}
+}
+@media only screen and (max-width: 760px) {
+	.header-image,.header-search-button{
+		display:none;
+	}
+	.fa-bell:before{
+		display:none;
+	}
+	#music-images-container div label{
+		margin-left: 45vw;
+	}
+
+}
+@media only screen and (max-width: 450px) {
+	.header-image,.header-search-button{
+		display:none;
+	}
+	.fa-bell:before{
+		display:none;
+	}
+}
